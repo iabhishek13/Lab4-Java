@@ -21,7 +21,7 @@ return false;
 
 function colorsky1()
 {
-const click=document.getElementById('click');
+const click=document.getElementById('click1');
 click.style.backgroundColor = "skyblue";
 return false;
 }    
@@ -49,4 +49,21 @@ return false;
   
 const abhi = document.querySelector("#list");
 abhi.innerHTML = profile;
+}
+ function lab(view)
+ {
+   const pro = java4.map(data =>`<div class="email-item email-item-selected pure-g " id="click1" onclick="colorsky1();">
+   <div class="pure-u" onmouseover="change()">
+   <img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar" src="${data.pic}"></div>
+    <div class="pure-u-3-4">
+    <h5 class="email-name">${data.name}</h5>
+    <h4 class="email-subject">${data.subject}</h4>
+    <p class="email-desc">${data.paragraph}
+      </p>
+      </div>
+      </div>
+      </div>`).join("");
+  
+const abh = document.querySelector("#list");
+abh.innerHTML = pro;
 }
