@@ -28,7 +28,7 @@ fetch("https://my.api.mockaroo.com/users.json?key=79a35aa0&qty=3")
       </div>`).join("");
   
 const abhi = document.querySelector("#list");
-main.innerHTML = profile;
+abhi.innerHTML = profile;
 }
 function colorsky()
 {
