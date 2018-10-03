@@ -13,7 +13,7 @@ fetch("https://my.api.mockaroo.com/users.json?key=79a35aa0&qty=3")
     }); 
 
  function lab4(view)
- {
+     {
    const profile = java4.map(data =>`<div class="email-item email-item-selected pure-g " id="click" onclick="colorsky();">
    <div class="pure-u" onmouseover="change()">
    <img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar" src="${data.pic}"></div>
@@ -27,7 +27,7 @@ fetch("https://my.api.mockaroo.com/users.json?key=79a35aa0&qty=3")
       </div>
       </div>`).join("");
   
-const main = document.querySelector("#list");
+const abhi = document.querySelector("#list");
 main.innerHTML = profile;
 }
 function colorsky()
