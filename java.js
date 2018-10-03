@@ -12,30 +12,10 @@ fetch("https://my.api.mockaroo.com/users.json?key=79a35aa0&qty=3")
     lab4();
     }); 
 
-function colorsky()
-{
-const click=document.getElementById('click');
-click.style.backgroundColor = "skyblue";
-return false;
-}    
-
-function colorsky1()
-{
-const click=document.getElementById('click1');
-click.style.backgroundColor = "skyblue";
-return false;
-}    
-
-function colorsky2()
-{
-const click=document.getElementById('click');
-click.style.backgroundColor = "skyblue";
-return false;
-}    
 
  function lab4(view)
  {
-   const profile = java4.map(data =>`<div class="email-item email-item-selected pure-g " id="click" onclick="colorsky();">
+   const profile = java4.map(data =>`<div class="email-item email-item-selected pure-g " id="click"">
    <div class="pure-u">
    <img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar" src="${data.pic}"></div>
     <div class="pure-u-3-4">
@@ -52,7 +32,7 @@ abhi.innerHTML = profile;
 }
  function lab(view)
  {
-   const pro = java4.map(data =>`<div class="email-item email-item-selected pure-g " id="click1" onclick="colorsky1();">
+   const pro = java4.map(data =>`<div class="email-item email-item-selected pure-g " id="click1"">
    <div class="pure-u">
    <img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar" src="${data.pic}"></div>
     <div class="pure-u-3-4">
